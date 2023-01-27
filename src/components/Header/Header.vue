@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 import { ref } from "vue";
 import Sidebar from "@/components/Sidebar/Sidebar.vue";
-import LogoIcon from "@/assets/imgs/logo.svg?url";
 
 const sidebarRef = ref();
 
@@ -32,11 +31,7 @@ export default {
           MENU
         </button>
       </div>
-
-      <div class="header__logo">
-        <img class="header__logo-img" :src="LogoIcon" alt="spectacles" />
-      </div>
-
+      <p class="header__logo">bloobloom</p>
       <div class="header__right-side" />
     </div>
     <Sidebar ref="sidebarRef" />

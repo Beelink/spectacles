@@ -19,9 +19,14 @@
     justify-content: center;
     height: 100%;
     border-right: 1px solid #000;
+    font-size: 14px;
 
     &:hover {
       text-decoration: underline;
     }
+  }
+
+  &__logo {
+    font-size: 24px;
   }
 }

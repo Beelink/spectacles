@@ -7,10 +7,10 @@ export interface ICollection {
   configuration_name: string;
 }
 
-export interface IGetGlassesResponse {
+export interface IGetCollectionsResponse {
   collections: ICollection[];
 }
 
 export const getCollections = async () => {
-  await apiClient.get<IGetGlassesResponse>("/collections");
+  return await apiClient.get<IGetCollectionsResponse>("/collections");
 };

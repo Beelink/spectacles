@@ -9,10 +9,10 @@ const routes: RouteRecordRaw[] = [
       {
         name: "home",
         path: "/",
-        component: () => import("@/pages/HomePage/HomePage.vue"),
+        redirect: { path: "/collections/spectacles-women" },
       },
       {
-        name: "spectacles-men",
+        name: "glasses",
         path: "/collections/:collection",
         component: () => import("@/pages/GlassesPage/GlassesPage.vue"),
       },

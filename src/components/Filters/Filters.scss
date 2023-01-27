@@ -3,14 +3,35 @@
     height: 60px;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #000;
   }
 
   &__cell {
     flex: 1;
+    height: 100%;
     border-right: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &:last-child {
       border-right: none;
+    }
+  }
+
+  &__heading {
+    font-size: 24px;
+  }
+
+  &__filter {
+    margin-right: 8px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &--active {
+      border-bottom: 1px solid #000;
     }
   }
 }

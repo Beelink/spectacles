@@ -1,20 +1,8 @@
 @import "./reset.css";
 
-#app {
-  height: 100vh;
-  display: flex;
-
-  & > .layout {
-    flex: 1;
-    max-width: 100%;
-    overflow: hidden;
-  }
-}
-
 html,
 body {
   background: #fff;
-  overflow: hidden;
 }
 
 * {

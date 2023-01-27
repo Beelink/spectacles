@@ -1,2 +1,27 @@
 .glasses-page {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -2px;
+  }
+
+  &__list-item {
+    flex-basis: 33.3%;
+    position: relative;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+
+  &__list-item-image {
+    width: 100%;
+    vertical-align: top;
+  }
+
+  &__list-item-title {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
 }
