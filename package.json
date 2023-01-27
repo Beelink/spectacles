@@ -1,0 +1,41 @@
+{
+  "name": "spectacles",
+  "private": true,
+  "version": "1.0.0",
+  "author": {
+    "name": "Eugene Volynko",
+    "email": "volynko.ua@gmail.com",
+    "url": "https://github.com/Beelink"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --port 3001",
+    "serve": "vite serve --port 8080 --host",
+    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore --fix src"
+  },
+  "dependencies": {
+    "axios": "^1.1.3",
+    "vue": "^3.2.37",
+    "vue-query": "^1.26.0",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^9.7.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vite-plugin-checker": "^0.5.1",
+    "vite-svg-loader": "^3.6.0",
+    "vue-eslint-parser": "^9.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}

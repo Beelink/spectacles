@@ -1,0 +1,27 @@
+.header {
+  &__container {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid #000;
+  }
+
+  &__right-side,
+  &__left-side {
+    flex: 1;
+    height: 100%;
+  }
+
+  &__menu-btn {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-right: 1px solid #000;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
